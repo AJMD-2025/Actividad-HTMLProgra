@@ -1,15 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnews</title>
-</head>
-<body>
-    <h1>Tecnews  </h1>
-    <p></p>
-    <nav>
-    
-    </nav>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecNews | Noticias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container header-inner">
+        <div class="logo-wrap">
+          <span class="logo-mark">T</span>
+          <span class="logo-text">TecNews</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#">Inicio</a>
+          <a href="#">Tecnología</a>
+          <a href="#">Economía</a>
+          <a href="#">Deportes</a>
+          <a href="#">Cultura</a>
+        </nav>
+
+        <button class="cta-btn">Suscribirse</button>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      <section class="hero">
+        <article class="featured-story">
+          <div class="story-info">
+            <span class="tag">Tecnología</span>
+            <h1>La inteligencia artificial redefine la forma en que aprendemos y trabajamos.</h1>
+            <p>
+              Expertos señalan que las herramientas digitales y la automatización
+              están transformando la educación, el diseño y la productividad del trabajo moderno.
+            </p>
+            <div class="story-meta">
+              <span>Por Redacción TecNews</span>
+              <span>Hace 2 horas</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="side-news">
+          <article class="mini-card accent">
+            <span class="tag">Mercado</span>
+            <h2>La inversión en startups tecnológicas crece un 18% en el último trimestre.</h2>
+          </article>
+
+          <article class="mini-card">
+            <span class="tag">Internacional</span>
+            <h2>Los nuevos avances en energía renovable impulsan la transición global.</h2>
+          </article>
+        </aside>
+      </section>
+
+      <section class="latest-section">
+        <div class="section-heading">
+          <h3>Últimas noticias</h3>
+          <a href="#">Ver todas</a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card">
+            <span class="tag alt">Política</span>
+            <h4>Gobierno presenta nuevas medidas para fortalecer la conectividad rural.</h4>
+            <p>La estrategia incluye ampliación de infraestructura digital y apoyo a comunidades con menor acceso.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="tag alt">Ciencia</span>
+            <h4>Investigadores desarrollan baterías más sostenibles para el futuro energético.</h4>
+            <p>El proyecto combina materiales reciclables y un diseño pensado para prolongar su vida útil.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="tag alt">Deportes</span>
+            <h4>Equipos internacionales preparan nuevas alianzas para la próxima temporada.</h4>
+            <p>Las reformas deportivas y los ingresos digitales están redefiniendo la competencia actual.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="tag alt">Economía</span>
+            <h4>Los pequeños negocios adaptan modelos híbridos para crecer en la era digital.</h4>
+            <p>Empresas locales aprovechan plataformas online para ampliar su alcance y mejorar ventas.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
